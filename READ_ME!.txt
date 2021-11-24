@@ -16,9 +16,15 @@ git add --> To track all files within that directory.
 
 git commit -m "some message"   -->  Commit those change and describes the changes you just made
 
+git commit -am "some message"  --> To commit everything
+
 git status                     -->  To see how our code compares to the code on the remote repository
 
 git push                       --> To publish
+
+git log                        --> To see all the commids
+
+type "q" or "z"                --> To exit git log
 
 Potentially even more helpful, if you realize that you’ve made a mistake, you can revert back to a previous commit using the command git reset in one of two ways:
 
